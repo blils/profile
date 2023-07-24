@@ -6,6 +6,7 @@ body {
   text-align: center;
 }
 
+div {box-shadow: 0 10px 30px white;}
 .text_funky {
   color: rgb(254, 253, 253);
   font-family: 'Lilita One';
@@ -31,6 +32,18 @@ body {
   border-radius: 400px;
 
 }
+
+.button { background-color: #f36f87;
+color: white;
+border: grey;
+border-radius: 40px;
+width: 100px;
+margin: 0 auto;
+padding: 15px;
+opacity: 0.5;}
+
+.button:hover {
+    opacity: 1 ;}
 
 li {color: white;
   font-family: 'Roboto';
