@@ -4,20 +4,21 @@ Pick a nice background-color, font-family, color, font-size and line-height for 
 body {
   background-color: #f36f87;
   text-align: center;
-
 }
-.text_funky { color: rgb(254, 253, 253);
+
+.text_funky {
+  color: rgb(254, 253, 253);
   font-family: 'Lilita One';
-     font-weight: 300;
-     font-size: 50px;
-     margin: 10px;
+  font-weight: 300;
+  font-size: 50px;
+   margin: 10px;
 }
 
 .less_funky_text {color: rgb(254, 253, 253);
   font-family: 'Lilita One';
-     font-weight: 300;
-     font-size: 20px;
-     margin: 10px;}
+  font-weight: 300;
+  font-size: 20px;
+  margin: 10px;}
 
 .card_funky {
   width: 500px;
@@ -25,7 +26,7 @@ body {
   margin-bottom: 30px;
   background-color: rgba(240, 240, 240, 0.7);
   border-radius: 70px;
-  padding: 50px;
+  padding: 40px;
   border: 10px dotted white;
   border-radius: 400px;
 
@@ -64,6 +65,15 @@ opacity: 0.5;
 .list-inline > li {
   display: inline-block;
   padding: 0px 20px;
+}
+
+.sidebar {
+  width: 200px;
+  height: 100%;
+  background-color: #ebad6f;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 
